@@ -1,6 +1,6 @@
 <?php
 // === Настройки ===
-$receiver = "decai@almau.edu.kz"; // ← сюда впиши почту, куда будут приходить заявки
+$receiver = "decai@almau.edu.kz"; // 
 $subject = "Новая регистрация с сайта AI Conference";
 
 // Включаем CORS, если нужно
