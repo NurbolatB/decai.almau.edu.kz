@@ -83,7 +83,7 @@ const translations = {
         
 
 
-// Новые ключи для русского языка (вставьте их в существующий объект ru)
+// Новые ключи для русского языка 
  "publication-btn": "ТРЕБОВАНИЯ К ПУБЛИКАЦИИ",
     "publication-text-1": `Публикация материалов и сертификаты
       Электронный сборник материалов будет издан к открытию конференции и направлен участникам на e-mail, указанный при регистрации.
@@ -122,32 +122,7 @@ const translations = {
         * Уведомление о принятии: до 20 февраля 2026 года
         * Публикация программы: 1 марта 2026 года
       `,
-/*
-
-
-        // Publication requirements
-        "publication-text-1": "Публикация материалов. Электронный сборник материалов будет издан к открытию конференции и размещен на сайте конференции: https://decai.almau.edu.kz/ Направляемые для публикации статьи оформляются в соответствии с требованиями:",
-        "publication-requirements": "Основные требования:",
-        "pub-req-1": "Объем не более 5 страниц, формата А4, файл MS Word в формате .docx",
-        "pub-req-2": "Оригинальность текста не менее 75% (Антиплагиат или др.сервисы)",
-        "pub-req-3": "Статья не должна быть ранее опубликована",
-        "formatting-params": "Параметры форматирования:",
-        "format-1": "Шрифт: Times New Roman, 12 pt",
-        "format-2": "Межстрочный интервал: 1,0",
-        "format-3": "Все поля: 2,0 см",
-        "format-4": "Отступ первой строки абзаца: 0,5 см",
-        "format-5": "Рисунки и таблицы должны иметь подписи и ссылки в тексте",
-        "format-6": "Страницы статьи не нумеруются",
-        "article-structure": "Структура статьи:",
-        "structure-1": "Название (не более 10 слов, отражает основную идею исследования)",
-        "structure-2": "Информация об авторах (указывается для каждого автора отдельно): Фамилия Имя Отчество¹, Фамилия Имя Отчество², ... ¹ Ученая степень, ученое звание, кафедра, университет (указывается без сокращений), город, страна ² Должность, место работы, город, страна *E-mail: author1@email.com; author2@email.com",
-        "structure-3": "Аннотация (Аңдатпа, Abstract) на русском, казахском, английском языках. Аннотация должна быть информативной и краткой (150 слов), отражать цель, методы, результаты и основные выводы исследования, без сокращений, ссылок, формул.",
-        "structure-4": "Ключевые слова и словосочетания («Ключевые слова:», «Түйін сөздер:», «Keywords:» не менее 5)",
-        "structure-5": "Текст статьи содержит основные элементы (по формату IMRAD): I. Введение (актуальность, проблема, цель, задачи, значимость) II. Литературный обзор (анализ источников, пробелы, обоснование исследования) III. Методология (дизайн, выборка, методы сбора и анализа, этика) IV. Результаты и обсуждение (представление данных, интерпретация, новизна) V. Заключение (выводы, значимость, перспективы)",
-        "structure-6": "Благодарности (указать при наличии грантов, проектов, поддержки коллег)",
-        "structure-7": "Список литературы (в формате IEEE). Номера присваиваются в порядке первого упоминания источника в тексте в квадратных скобках. Обязательно DOI (Digital Object Identifier) для статей. Примеры: [1] Автор А.А., Автор Б.Б. Название статьи // Название журнала. Год. Т. №, С. ХХ–ХХ. [2] Автор В.В. Название книги. — Город: Издательство, Год. [3] Author C.C. Paper title // Conference Proceedings. City, Year, pp. 100–105.",
-        "peer-review": "Все материалы проходят рецензирование редакционной коллегией.",
-  */      
+    
         // Events section
         "event-1": "Выставка книг",
         "event-2": "Выставка онлайн-курсов",
@@ -309,9 +284,8 @@ const translations = {
         
 
 
-// ... другие переводы ...
 
-    // New text for publication block (updated)
+    // New text for publication block 
  "publication-btn": "PUBLICATION REQUIREMENTS",
     "publication-text-1": `
       Publication of Materials and Certificates
@@ -391,30 +365,7 @@ const translations = {
       
     `,
 
-/*
-
-        "publication-text-1": "Publication of Materials. An electronic proceedings volume will be published by the opening of the conference and made available on the conference website: https://decai.almau.edu.kz/ Manuscript Requirements:",
-        "publication-requirements": "Main requirements:",
-        "pub-req-1": "Length: no more than 5 pages, A4 format; File format: MS Word (docx)",
-        "pub-req-2": "Text originality: at least 75% (Anti-Plagiarism or equivalent services)",
-        "pub-req-3": "The manuscript must not have been previously published",
-        "formatting-params": "Formatting Parameters:",
-        "format-1": "Font: Times New Roman, 12 pt",
-        "format-2": "Line spacing: 1.0",
-        "format-3": "Margins: 2.0 cm on all sides",
-        "format-4": "First-line paragraph indent: 0.5 cm",
-        "format-5": "Figures and tables must have captions and references in the text",
-        "format-6": "Pages must not be numbered",
-        "article-structure": "Structure of the Manuscript:",
-        "structure-1": "Title (no more than 10 words, reflecting the main idea of the research)",
-        "structure-2": "Author Information (for each author separately): Surname Name Patronymic¹, Surname Name Patronymic², … ¹ Academic degree, academic title, department, university (written in full), city, country ² Position, place of employment, city, country E-mail: author1@email.com; author2@email.com",
-        "structure-3": "Abstract (in Russian, Kazakh, and English, up to 150 words)",
-        "structure-4": "Keywords (at least 5)",
-        "structure-5": "Main Text (IMRAD format): I. Introduction II. Literature Review III. Methodology IV. Results and Discussion V. Conclusion",
-        "structure-6": "Acknowledgements (if applicable)",
-        "structure-7": "References (IEEE format, DOI required for journal articles). All materials undergo peer review by the editorial board.",
-        "peer-review": "All materials undergo peer review by the editorial board.",
-  */      
+  
         "event-1": "Book exhibition",
         "event-2": "Online courses exhibition",
         "event-3": "Online learning equipment exhibition",
@@ -569,9 +520,8 @@ const translations = {
        
 
 
-// ... другие переводы ...
 
-    // Новый текст для блока публикации (обновленный)
+    // Новый текст для блока публикации 
 "publication-btn": "ЖАРИЯЛАУ ТАЛАПТАРЫ",
     "publication-text-1": `
       Материалдарды жариялау және сертификаттар
@@ -653,32 +603,7 @@ const translations = {
 
 
 
-/*
-
-
- "publication-text-1": "Материалдарды жариялау. Конференцияның ашылуына дейін материалдардың электрондық жинағы дайындалып, конференция сайтында орналастырылады: https://decai.almau.edu.kz/ Мақалаларға қойылатын талаптар:",
-        "publication-requirements": "Негізгі талаптар:",
-        "pub-req-1": "Көлемі: 5 беттен аспайды, A4 форматы; Файл форматы: MS Word (.docx)",
-        "pub-req-2": "Мәтіннің түпнұсқалығы: кемінде 75%",
-        "pub-req-3": "Мақала бұрын жарияланбаған болуы тиіс",
-        "formatting-params": "Рәсімдеу талаптары:",
-        "format-1": "Қаріп: Times New Roman, 12 pt",
-        "format-2": "Жоларалық интервал: 1,0",
-        "format-3": "Барлық өрістер: 2,0 см",
-        "format-4": "Абзацтың бірінші жолының шегінісі: 0,5 см",
-        "format-5": "Суреттер мен кестелер атаулары және мәтіндегі сілтемелерімен рәсімделуі тиіс",
-        "format-6": "Беттер нөмірленбейді",
-        "article-structure": "Мақаланың құрылымы:",
-        "structure-1": "Тақырып (10 сөзден аспайды)",
-        "structure-2": "Авторлар туралы ақпарат (әр автор үшін жеке)",
-        "structure-3": "Аннотация (орыс, қазақ және ағылшын тілдерінде, 150 сөзге дейін)",
-        "structure-4": "Түйін сөздер (кемінде 5)",
-        "structure-5": "Негізгі мәтін (IMRAD форматы)",
-        "structure-6": "Алғыс білдіру (қажет болған жағдайда)",
-        "structure-7": "Пайдаланылған әдебиеттер тізімі (IEEE форматы, DOI міндетті)",
-        "peer-review": "Барлық материалдар редакциялық алқаның рецензиялауынан өтеді.",
-  
-*/      
+   
         "event-1": "Кітап көрмесі",
         "event-2": "Онлайн-курстар көрмесі",
         "event-3": "Онлайн оқыту жабдықтары көрмесі",
@@ -919,7 +844,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 console.log("Статус ответа:", res.status, res.statusText);
 
-                // ВАЖНО: сначала проверяем статус ответа
+                // сначала проверяем статус ответа
                 if (!res.ok) {
                     throw new Error(`HTTP error! status: ${res.status} - ${res.statusText}`);
                 }
