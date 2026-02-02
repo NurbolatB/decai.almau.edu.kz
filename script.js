@@ -1173,4 +1173,3 @@ document.addEventListener("DOMContentLoaded", () => {
 // Обеспечиваем глобальную доступность функции changeLanguage
 window.changeLanguage = changeLanguage;
 
-
