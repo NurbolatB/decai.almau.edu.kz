@@ -63,6 +63,7 @@ body {
   display: flex;
   align-items: center;
   flex-shrink: 0;
+  gap: 12px;
 }
 
 .brand .logo {
@@ -592,6 +593,27 @@ section {
   line-height: 1.62;
   font-weight: 400;
   margin: 0;
+}
+
+.partner-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  margin-top: 28px;
+  flex-wrap: wrap;
+}
+
+.partner-logo {
+  height: 85px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.75;
+  transition: opacity 0.3s ease;
+}
+
+.partner-logo:hover {
+  opacity: 1;
 }
 
 .about-info-combo-container {
