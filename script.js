@@ -28,6 +28,7 @@ const translations = {
         "publication-btn": "ТРЕБОВАНИЯ К ПУБЛИКАЦИИ",
         "events-btn": "МЕРОПРИЯТИЯ",
         "certificates-btn": "СЕРТИФИКАТЫ",
+        "publications-materials-btn": "ПУБЛИКАЦИИ И МАТЕРИАЛЫ",
 
         // Info blocks content
         "knowledge-content": "Сессии ведут опытные специалисты с реальными кейсами и рекомендациями. Программа разделена на секции — вы выбираете те, что максимально подходят вашим задачам.",
@@ -80,7 +81,8 @@ const translations = {
         "payment-text-1": "По вопросам публикаций, приема заявок и докладов обращаться в Оргкомитет конференции. Регистрационный взнос в размере 10 000 тенге (20USD) может быть перечислен на расчетный счет Алматы Менеджмент университета:",
         "payment-details": "Реквизиты для оплаты: УО «Алматы Менеджмент Университет» РНН 600400079841, КБЕ 18 БИН 971240001583 ИИК KZ406017131000053681 (тенге) KZ336017131000057687 (USD) АО «Народный Банк Казахстан» БИК HSBKKZKX 050060, г. Алматы, ул. Розыбакиева, 227",
         "payment-instructions": "В квитанции необходимо указать: ФИО участника конференции; за участие в конференции \"Цифровое образование в эпоху искусственного интеллекта\". Электронную копию квитанции высылать на e-mail: decai@almau.edu.kz",
-
+        "zoom-title": "Приглашение на Zoom встречу",
+        "zoom-date": "Конференция: 18 марта 2026 года",
 
 
         // Новые ключи для русского языка 
@@ -131,8 +133,15 @@ const translations = {
 
         // Certificates section
         "certificates-content": "Все участники конференции получат электронные сертификаты участия. Ссылка для скачивания сертификатов будет размещена на сайте конференции.",
+        "publications-materials-content": "Информация обновляется.",
 
         // Спикеры
+        "speaker-8-name": "Динара Ринатовна Щеглова",
+        "speaker-8-desc": "Вице-министр науки и высшего образования Республики Казахстан",
+        "speaker-9-name": "Доктор Джули Линдсей",
+        "speaker-9-desc": "Старший консультант по технологическим инновациям, Университет Южного Квинсленда (UniSQ)",
+        "speaker-10-name": "Мадина Есимхановна Мансурова",
+        "speaker-10-desc": "Профессор, заведующая кафедрой искусственного интеллекта и больших данных, КазНУ им. аль-Фараби",
         "speaker-1-name": "Рэйчел Синг-и-Тан",
         "speaker-1-desc": "Руководитель программы доктора педагогических наук на факультете образования и свободных искусств Международного университета ИНТИ, Малайзия",
         "speaker-3-name": "Исабаева Даража Нагашыбаевна",
@@ -235,6 +244,7 @@ const translations = {
         "publication-btn": "PUBLICATION REQUIREMENTS",
         "events-btn": "EVENTS",
         "certificates-btn": "CERTIFICATES",
+        "publications-materials-btn": "PUBLICATIONS AND MATERIALS",
 
         "knowledge-content": "Sessions are conducted by experienced specialists with real cases and recommendations. The program is divided into sections - you choose those that best suit your tasks.",
         "leaders-content": "Networking with experts, investors, EdTech partners and like-minded people. Expand your contact network and find new opportunities for cooperation.",
@@ -283,6 +293,8 @@ const translations = {
         "payment-text-1": "For inquiries regarding publication and submissions, please contact the Organizing Committee. A registration fee of 10,000 KZT (20 USD) is payable to the bank account of Almaty Management University:",
         "payment-details": "Payment Details: Educational Institution \"Almaty Management University\" RNN 600400079841, KBE 18 BIN 971240001583 IBAN (KZT): KZ406017131000053681 IBAN (USD): KZ336017131000057687 JSC \"Halyk Bank of Kazakhstan\" BIC: HSBKKZKX 050060, Almaty, Rozybakiev St., 227",
         "payment-instructions": "The payment receipt must indicate: participant's full name; for participation in the conference \"Digital Education in the Era of Artificial Intelligence\". Please send a scanned copy of the receipt to: decai@almau.edu.kz",
+        "zoom-title": "Zoom Meeting Invitation",
+        "zoom-date": "Conference: March 18, 2026",
 
 
 
@@ -374,8 +386,15 @@ const translations = {
         "event-4": "AI companies",
 
         "certificates-content": "All conference participants will receive electronic certificates of participation. The link for downloading the certificates will be posted on the conference website.",
+        "publications-materials-content": "Information is being updated.",
 
         // ... другие переводы
+        "speaker-8-name": "Dinara Shcheglova",
+        "speaker-8-desc": "Vice Minister of Science and Higher Education of the Republic of Kazakhstan",
+        "speaker-9-name": "Dr Julie Lindsay",
+        "speaker-9-desc": "Senior Consultant (Technology Innovation) at the University of Southern Queensland (UniSQ)",
+        "speaker-10-name": "Madina Mansurova",
+        "speaker-10-desc": "Professor, Head of the Department of Artificial Intelligence and Big Data, Al-Farabi Kazakh National University",
         "speaker-1-name": "Rachel Sing-Ee Tan",
         "speaker-1-desc": "Head of Programme for the Doctor of Education at the Faculty of Education and Liberal Arts, INTI International University, Malaysia",
         "speaker-3-name": "Isabayeva Darazha Nagashybayevna",
@@ -472,6 +491,7 @@ const translations = {
         "publication-btn": "ЖАРИЯЛАУ ТАЛАПТАРЫ",
         "events-btn": "ІС-ШАРАЛАР",
         "certificates-btn": "СЕРТИФИКАТТАР",
+        "publications-materials-btn": "ЖАРИЯЛАНЫМДАР ЖӘНЕ МАТЕРИАЛДАР",
 
         "knowledge-content": "Сессияларды нақты істер мен ұсыныстары бар тәжірибелі мамандар жүргізеді. Бағдарлама бөлімдерге бөлінген — сіз өз міндеттеріңізге ең қолайлы болғандарын таңдайсыз.",
         "leaders-content": "Сарапшылар, инвесторлар, EdTech-серіктестер мен бір ойлы адамдармен танысу. Байланыс желісін кеңейтіп, ынтымақтастықтың жаңа мүмкіндіктерін табыңыз.",
@@ -520,6 +540,8 @@ const translations = {
         "payment-text-1": "Жарияланымдар, өтінімдер қабылдау және баяндамалар бойынша сұрақтармен конференцияның Ұйымдастыру комитетіне хабарласуға болады. 10 000 теңге (20 АҚШ доллары) мөлшеріндегі тіркеу жарнасы Алматы Менеджмент Университетінің есеп айырысу шотына аударылады:",
         "payment-details": "Төлем жасауға арналған деректемелер: «Алматы Менеджмент Университеті» ББМ РНН 600400079841, КБЕ 18 БИН 971240001583 ИИК: KZ406017131000053681 (теңге) KZ336017131000057687 (USD) «Қазақстан Халық Банкі» АҚ БИК: HSBKKZKX 050060, Алматы қ., Розыбакиев көш., 227",
         "payment-instructions": "Төлем түбіртегінде міндетті түрде: конференция қатысушысының ТАӘ; «Жасанды интеллект дәуіріндегі цифрлық білім беру» конференциясына қатысу үшін деген белгі көрсетілуі тиіс. Түбіртектің электрондық көшірмесін келесі электрондық поштаға жіберу қажет: decai@almau.edu.kz",
+        "zoom-title": "Zoom кездесуіне шақыру",
+        "zoom-date": "Конференция: 2026 жылғы 18 наурыз",
 
 
 
@@ -614,8 +636,15 @@ const translations = {
         "event-4": "ЖИ компаниялары",
 
         "certificates-content": "Конференцияның барлық қатысушыларына электрондық қатысу сертификаттары беріледі. Сертификаттарды жүктеп алу сілтемесі конференцияның сайтында орналастырылады.",
+        "publications-materials-content": "Ақпарат жаңартылуда.",
 
         // ... другие переводы
+        "speaker-8-name": "Динара Щеглова",
+        "speaker-8-desc": "Қазақстан Республикасының Ғылым және жоғары білім вице-министрі",
+        "speaker-9-name": "Доктор Джули Линдсей",
+        "speaker-9-desc": "Оңтүстік Квинсленд университетінің (UniSQ) технологиялық инновациялар бойынша аға кеңесшісі",
+        "speaker-10-name": "Мадина Есімханқызы Мансұрова",
+        "speaker-10-desc": "Профессор, жасанды интеллект және үлкен деректер кафедрасының меңгерушісі, Әл-Фараби атындағы ҚазҰУ",
         "speaker-1-name": "Рэйчел Синг-и-Тан",
         "speaker-1-desc": "Малайзиядағы INTI Халықаралық Университетінің Білім және Гуманитарлық Ғылымдар Факультетінің Білім Докторы Дәрежесін Алу Бағдарламасының басшысы",
         "speaker-3-name": "Исабаева Даража Нағашыбайқызы",
@@ -973,6 +1002,27 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+    // Открытие блока по якорной ссылке в URL (например #certificates)
+    function openBlockByHash() {
+        const hash = window.location.hash;
+        if (hash) {
+            const block = document.querySelector(hash);
+            if (block && block.classList.contains("info-block")) {
+                const btn = block.querySelector(".info-toggle");
+                const content = block.querySelector(".info-content");
+                if (btn && content) {
+                    content.style.display = "block";
+                    btn.classList.add("active");
+                }
+                setTimeout(() => {
+                    block.scrollIntoView({ behavior: "smooth", block: "center" });
+                }, 300);
+            }
+        }
+    }
+    openBlockByHash();
+    window.addEventListener("hashchange", openBlockByHash);
+
     // ============ SPEAKER MODAL FUNCTIONALITY ============
     const speakerModal = document.getElementById("speaker-modal");
     const modalPhoto = document.getElementById("modal-speaker-photo");
@@ -988,6 +1038,18 @@ document.addEventListener("DOMContentLoaded", () => {
     // Speaker detailed data (biography and report for each speaker)
     const speakerData = {
         ru: {
+            8: {
+                bio: "Динара Ринатовна Щеглова — Вице-министр науки и высшего образования Республики Казахстан.",
+                report: "Доклад: «Реализация национальной инициативы AI-Sana: развитие экосистемы искусственного интеллекта в высшем образовании Казахстана». Стремительное развитие технологий искусственного интеллекта трансформирует систему высшего образования и формирует новые требования к развитию цифровых компетенций, научно-исследовательского потенциала и взаимодействию университетов с индустрией и государством. В ответ на эти вызовы в Казахстане реализуется национальная инициатива AI-Sana, направленная на укрепление интеграции технологий искусственного интеллекта в высшее образование и научные исследования. В докладе будут представлены ключевые направления реализации инициативы AI-Sana, включая развитие AI-компетенций студентов и преподавателей, поддержку междисциплинарных исследований и формирование академической экосистемы, способствующей инновациям и ответственному внедрению искусственного интеллекта в системе высшего образования Казахстана."
+            },
+            9: {
+                bio: "Dr Julie Lindsay — старший консультант по технологическим инновациям Университета Южного Квинсленда (UniSQ).",
+                report: "Доклад: «Обучение вместе с миром: глобальное сотрудничество, партнёрство с ИИ и новые горизонты человеческого взаимодействия в образовании». На протяжении более трёх десятилетий глобальное коллаборативное обучение побуждает преподавателей выходить за пределы традиционного класса. В данном докладе утверждается, что наиболее значительное изменение в образовании связано не с использованием ИИ как инструмента эффективности, а с его ролью как партнёра в процессе обучения. Опираясь на концепцию Cosmogogy и результаты пилотного проекта Cosmogogy Collaborative, представлена концепция экосистемы Human–AI–World и рамочная модель Global Collaborator Mindset, основанная на принципах связи, открытости, автономии и инноваций."
+            },
+            10: {
+                bio: "Мадина Есимхановна Мансурова — профессор, заведующая кафедрой искусственного интеллекта и больших данных, Казахский национальный университет имени аль-Фараби.",
+                report: "Доклад: «Интеграция интеллектуальных агентов в образовательную среду: вызовы, возможности и этические аспекты». В условиях стремительной цифровой трансформации образования особую значимость приобретают технологии ИИ, направленные на повышение эффективности управления образовательными процессами. Одним из наиболее перспективных направлений является использование интеллектуальных агентов на основе больших языковых моделей (LLM), выступающих в роли цифровых консультантов в образовательной среде."
+            },
             1: {
                 bio: "Доктор Рэйчел Синг-и-Тан — руководитель программы доктора педагогических наук на факультете образования и свободных искусств Международного университета ИНТИ, Малайзия. Ее работа сосредоточена на управлении искусственным интеллектом в высшем образовании, с особым акцентом на ответственный ИИ, честность оценки и ориентированную на человека цифровую трансформацию в формирующихся системах высшего образования. Она работает с университетами по всей Азии в области докторантуры, обеспечения академического качества и преподавания и оценки с использованием искусственного интеллекта, помогая учебным заведениям воплощать политические устремления в устойчивую академическую практику. Рэйчел участвует в международном сотрудничестве в области ответственного и устойчивого искусственного интеллекта в рамках программы Frontiers, партнерства между Королевской инженерной академией и Японским агентством науки и технологий (JST). Ее исследования и руководство направлены на изучение того, как высшие учебные заведения могут интегрировать искусственный интеллект, сохраняя академические стандарты, мнение преподавателей и доверие к учреждениям.",
                 report: "Тема доклада: «От политики к практике: Управление генеративным ИИ в высшем образовании в новых системах высшего образования». По мере того как генеративный искусственный интеллект (GenAI) все шире внедряется в высшее образование, главной задачей, стоящей перед университетами, становится уже не внедрение, а управление. Многие формирующиеся системы высшего образования, характеризующиеся быстрыми реформами, четкой направленностью политики и растущим международным участием, сформулировали национальные стратегии в области искусственного интеллекта и институциональные руководящие принципы, однако им трудно воплотить их в согласованную академическую практику. В этом докладе рассматривается, как университеты могут перейти от политики GenAI высокого уровня к оперативному управлению, которое оказывает значимую поддержку преподаванию, оценке и академической честности. Опираясь на международные исследования и прикладной опыт по всей Азии, в том числе на новые условия в сфере высшего образования, такие как Казахстан, в презентации рассказывается об управлении \"человек в курсе\" как о практической основе для обеспечения баланса между технологическими возможностями и академическими суждениями, образовательными учреждениями и институциональной подотчетностью. Ключевые темы включают использование GenAI при оценке, готовность преподавателей, многоязычную и культурно разнообразную среду обучения, а также соответствие институциональной практики национальным программам цифровизации."
@@ -1014,6 +1076,18 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         },
         en: {
+            8: {
+                bio: "Dinara Shcheglova — Vice Minister of Science and Higher Education of the Republic of Kazakhstan.",
+                report: "Presentation: 'Implementing the National AI-Sana Initiative: Advancing the Artificial Intelligence Ecosystem in Higher Education in Kazakhstan'. The rapid development of artificial intelligence is transforming higher education and creating new demands for digital competencies, research capacity, and collaboration between universities, industry, and government. In response, Kazakhstan has launched the national AI-Sana initiative aimed at strengthening the integration of artificial intelligence into higher education and research. This presentation outlines the key directions of the AI-Sana initiative, including the development of AI competencies among students and faculty, support for interdisciplinary research, and the creation of an academic ecosystem that fosters innovation and responsible AI adoption within Kazakhstan's higher education system."
+            },
+            9: {
+                bio: "Dr Julie Lindsay — Senior Consultant (Technology Innovation) at the University of Southern Queensland (UniSQ).",
+                report: "LEARNING WITH THE WORLD: GLOBAL COLLABORATION, AI PARTNERSHIP, AND THE NEW FRONTIER OF HUMAN CONNECTION IN EDUCATION. For over three decades, global collaborative learning has challenged educators to move beyond classroom walls. This keynote argues that the most significant shift in education is not AI as a tool for efficiency, but AI as a collaborative partner in learning itself. Drawing on the theoretical framework of Cosmogogy and the Cosmogogy Collaborative pilot, this presentation explores what happens when AI agents join international student teams tackling real-world sustainability challenges. It introduces the Human-AI-World ecosystem as a new lens for designing globally connected, ethically grounded learning experiences. The Global Collaborator Mindset framework, built on Connection, Openness, Autonomy, and Innovation, is repositioned as a roadmap for educators navigating this transformation."
+            },
+            10: {
+                bio: "Madina Mansurova — Professor, Head of the Department of Artificial Intelligence and Big Data, Al-Farabi Kazakh National University.",
+                report: "The Integration of Intelligent Agents into the Educational Environment: Challenges, Opportunities, and Ethical Considerations. In the context of the rapid digital transformation of education, AI technologies aimed at improving educational management efficiency are gaining particular importance. One of the most promising directions is the use of intelligent agents based on Large Language Models (LLMs). Such systems are capable of analyzing large volumes of data, interacting with users in natural language, and providing recommendations, acting as digital consultants within the educational environment."
+            },
             1: {
                 bio: "Dr Rachel Sing-Ee Tan is the Head of Programme for the Doctor of Education at the Faculty of Education and Liberal Arts, INTI International University, Malaysia. Her work focuses on the governance of artificial intelligence in higher education, with particular emphasis on responsible AI, assessment integrity, and human-centred digital transformation in emerging higher education systems. She works with universities across Asia on doctoral education, academic quality assurance, and AI-enabled teaching and assessment, supporting institutions in translating policy aspirations into sustainable academic practice. Rachel has engaged in international collaboration on responsible and sustainable AI through the Frontiers programme, a partnership between the Royal Academy of Engineering and the Japan Science and Technology Agency (JST). Her research and leadership examine how higher education institutions can integrate artificial intelligence while preserving academic standards, educator judgement, and institutional trust.",
                 report: "Keynote: 'From Policy to Practice: Governing Generative AI in Higher Education in Emerging Higher Education Systems'. As generative artificial intelligence (GenAI) becomes increasingly embedded in higher education, the central challenge facing universities is no longer adoption, but governance. Many emerging higher education systems, characterised by rapid reform, strong policy direction, and growing international engagement, have articulated national AI strategies and institutional guidelines, yet struggle to translate these into coherent academic practice. This keynote examines how universities can move from high-level GenAI policy to operational governance that meaningfully supports teaching, assessment, and academic integrity. Drawing on international research and applied experience across Asia, including emerging higher education contexts such as Kazakhstan, the presentation introduces human-in-the-loop governance as a practical framework for balancing technological capability with academic judgement, educator agency, and institutional accountability. Key themes include GenAI use in assessment, faculty readiness, multilingual and culturally diverse learning environments, and alignment between institutional practices and national digitalisation agendas."
@@ -1040,6 +1114,18 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         },
         kz: {
+            8: {
+                bio: "Динара Щеглова — Қазақстан Республикасының Ғылым және жоғары білім вице-министрі.",
+                report: "Баяндама тақырыбы: «AI-Sana ұлттық бастамасын іске асыру: Қазақстанның жоғары білім жүйесінде жасанды интеллект экожүйесін дамыту». Жасанды интеллект технологияларының қарқынды дамуы жоғары білім жүйесін түбегейлі өзгертіп, цифрлық құзыреттерді дамытуға, ғылыми-зерттеу әлеуетін арттыруға және университеттер, индустрия мен мемлекет арасындағы ынтымақтастықты күшейтуге жаңа талаптар қалыптастыруда. Осы үрдістерге жауап ретінде Қазақстанда жасанды интеллектті жоғары білім мен ғылыми зерттеулерге енгізуді күшейтуге бағытталған AI-Sana ұлттық бастамасы іске асырылуда. Бұл баяндамада AI-Sana бастамасын іске асырудың негізгі бағыттары қарастырылады. Атап айтқанда, студенттер мен оқытушылардың AI-құзыреттерін дамыту, пәнаралық ғылыми зерттеулерді қолдау, сондай-ақ Қазақстанның жоғары білім жүйесінде инновациялар мен жасанды интеллектті жауапты түрде енгізуді қамтамасыз ететін академиялық экожүйені қалыптастыру мәселелері талданады."
+            },
+            9: {
+                bio: "Dr Julie Lindsay — Оңтүстік Квинсленд университетінің (UniSQ) технологиялық инновациялар бойынша аға кеңесшісі.",
+                report: "Баяндама: Әлеммен бірге оқу: жаһандық ынтымақтастық, жасанды интеллектпен серіктестік және білім берудегі адамаралық байланыстардың жаңа көкжиегі. Бұл негізгі баяндамада білім берудегі ең маңызды өзгеріс ЖИ-нің тиімділік құралы ретінде емес, оқу үдерісіндегі серіктес ретінде қарастырылуында екендігі негізделеді. Cosmogogy тұжырымдамасына сүйене отырып, Human–AI–World экожүйесі және Global Collaborator Mindset моделі ұсынылады."
+            },
+            10: {
+                bio: "Мадина Есімханқызы Мансұрова — профессор, жасанды интеллект және үлкен деректер кафедрасының меңгерушісі, Әл-Фараби атындағы ҚазҰУ.",
+                report: "Баяндама: Интеллектуалды агенттерді білім беру ортасына енгізу: сын-қатерлер, мүмкіндіктер және этикалық аспектілер. Білім берудің қарқынды цифрлық трансформациясы жағдайында үлкен тілдік модельдерге (LLM) негізделген интеллектуалды агенттерді қолдану ерекше маңызға ие болуда."
+            },
             1: {
                 bio: "Доктор Рэйчел Синг-и-Тан Малайзиядағы INTI Халықаралық Университетінің Білім және Гуманитарлық Ғылымдар Факультетінің Білім Докторы Дәрежесін Алу Бағдарламасын басқарады. Оның жұмысы жоғары білім берудегі жасанды интеллектті басқаруға бағытталған, әсіресе жауапты жасанды интеллектке, бағалаудың тұтастығына және дамып келе жатқан жоғары білім беру жүйелеріндегі адамға бағытталған цифрлық трансформацияға баса назар аударады. Ол Бүкіл Азиядағы университеттермен докторлық білім беру, академиялық сапаны қамтамасыз ету, сондай-ақ жасанды интеллектті қолдана отырып оқыту және бағалау бойынша жұмыс істейді, бұл институттарға саяси ұмтылыстарды тұрақты академиялық тәжірибеге аударуға қолдау көрсетеді. Рэйчел Корольдік Инженерлік Академия мен Жапонияның Ғылым және Технологиялар Агенттігі (JST) арасындағы серіктестік болып табылатын \"Frontiers\" бағдарламасы арқылы жауапты және тұрақты жасанды интеллект саласындағы халықаралық ынтымақтастыққа қатысты. Оның зерттеулері мен көшбасшылығы жоғары оқу орындарының академиялық стандарттарды, оқытушылардың пікірін және институционалдық сенімді сақтай отырып, жасанды интеллектті қалай біріктіре алатынын зерттейді.",
                 report: "Баяндама тақырыбы: «Саясаттан Практикаға: Дамып Келе Жатқан Жоғары Білім Беру Жүйелеріндегі Жоғары Білім Берудегі Генеративті Жасанды Интеллектті Басқару». Генеративті жасанды интеллект (GenAI) жоғары білімге көбірек енген сайын, университеттердің алдында тұрған басты мәселе енді қабылдау емес, басқару болып табылады. Қарқынды реформалармен, күшті саяси бағыттармен және өсіп келе жатқан халықаралық қатысумен сипатталатын көптеген дамып келе жатқан жоғары білім беру жүйелері жасанды интеллекттің ұлттық стратегиялары мен институционалдық нұсқауларын тұжырымдады, бірақ оларды дәйекті академиялық тәжірибеге енгізу қиынға соғады. Бұл негізгі баяндамада университеттердің GenAI-дің жоғары деңгейдегі саясатынан оқытуды, бағалауды және академиялық адалдықты айтарлықтай қолдайтын жедел басқаруға қалай ауыса алатындығы қарастырылады. Азиядағы халықаралық зерттеулер мен қолданбалы тәжірибеге, соның ішінде Қазақстан сияқты жаңа жоғары білім беру контексттеріне сүйене отырып, презентация технологиялық мүмкіндіктерді академиялық пайымдаулармен, білім беру агенттіктерімен және институционалдық есеп берумен теңестірудің практикалық негізі ретінде адам ресурстарын басқаруды ұсынады. Негізгі тақырыптарға GenAI-ді бағалауда қолдану, оқытушылардың дайындығы, көптілді және мәдени әртүрлі оқу орталары, сондай-ақ институционалдық тәжірибелер мен ұлттық цифрландыру бағдарламалары арасындағы сәйкестік кіреді."
