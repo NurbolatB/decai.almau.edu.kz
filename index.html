@@ -5,7 +5,6 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Digitalization of Education in the Era of AI — Conference</title>
-  <link rel="icon" href="assets/images/FIT1.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap">
 </head>
@@ -98,7 +97,7 @@
               <div class="info-content" data-i18n="tools-content">Участники смогут протестировать решения и совместно
                 реализовать примерный мини-проект с обсуждением каждого шага — от постановки задачи до результата.</div>
             </div>
-            <div class="info-block">
+            <div class="info-block" id="certificates">
               <button class="info-toggle" data-i18n="certificates-btn">СЕРТИФИКАТЫ</button>
               <div class="info-content" data-i18n="certificates-content">Все участники конференции получат электронные
                 сертификаты участия. Ссылка для скачивания сертификатов будет размещена на сайте конференции.</div>
@@ -332,6 +331,12 @@
               </div>
             </div>
 
+            <!-- Публикации и материалы -->
+            <div class="info-block" id="publications-materials">
+              <button class="info-toggle" data-i18n="publications-materials-btn">ПУБЛИКАЦИИ И МАТЕРИАЛЫ</button>
+              <div class="info-content" data-i18n="publications-materials-content">Информация обновляется.</div>
+            </div>
+
           </div>
         </div>
     </section>
@@ -343,41 +348,39 @@
         <h2 data-i18n="nav-speakers">СПИКЕРЫ</h2>
         <div id="speakers-list" class="grid">
 
-          <div class="speaker-card" data-speaker="1">
-            <img src="assets/images/Speak 1.png" class="speakers-circle" alt="Rachel Sing-i-Tan" />
-            <h4 data-i18n="speaker-1-name">Рэйчел Синг-и-Тан</h4>
-            <p data-i18n="speaker-1-desc">Руководитель программы, преподаватель, научный сотрудник, Университет INTI
-              International, Малайзия</p>
-          </div>
-
-          <div class="speaker-card" data-speaker="3">
-            <img src="assets/images/Speak3.png" class="speakers-circle" alt="Choshanov Murat" />
-            <h4 data-i18n="speaker-3-name">Исабаева Даража Нагашыбаевна</h4>
-            <p data-i18n="speaker-3-desc">Кандидат педагогических наук, и.о. профессора. Директор Управления
-              онлайн-образования AlmaU</p>
-          </div>
-
-          <div class="speaker-card addl" data-speaker="4">
-            <img src="assets/images/Speak 4.png" class="speakers-circle" alt="Kristof Fenyvesi" />
-            <h4 data-i18n="speaker-4-name">Кристоф Феньвеши</h4>
-            <p data-i18n="speaker-4-desc">Ph.D, старший научный сотрудник STEAM, Финский институт образовательных
-              исследований, Университет Ювяскюля, Финляндия</p>
-          </div>
-
-          <div class="speaker-card addl" data-speaker="5">
+          <!-- Baguri -->
+          <div class="speaker-card" data-speaker="5">
             <img src="assets/images/Speak 5.png" class="speakers-circle" alt="Ezza Mad Baguri" />
             <h4 data-i18n="speaker-5-name">Эзза Мад Багури</h4>
             <p data-i18n="speaker-5-desc">Старший преподаватель и научный сотрудник, Центр устойчивого развития и
               стратегий в области образования, Международного университета ИНТИ, Малайзия</p>
           </div>
 
-          <div class="speaker-card addl" data-speaker="6">
-            <img src="assets/images/Speak6.png" class="speakers-circle" alt="Ualii Khusei" />
+          <!-- Fenyvesi -->
+          <div class="speaker-card" data-speaker="4">
+            <img src="assets/images/Speak 4.png" class="speakers-circle" alt="Kristof Fenyvesi" />
+            <h4 data-i18n="speaker-4-name">Кристоф Феньвеши</h4>
+            <p data-i18n="speaker-4-desc">Ph.D, старший научный сотрудник STEAM, Финский институт образовательных
+              исследований, Университет Ювяскюля, Финляндия</p>
+          </div>
+
+          <!-- Huseyn -->
+          <div class="speaker-card" data-speaker="6">
+            <img src="assets/images/Speak6.png" class="speakers-circle" alt="Vali Huseyn" />
             <h4 data-i18n="speaker-6-name">Уалий Хусей</h4>
             <p data-i18n="speaker-6-desc">Эксперт-ментор для EdTech-проектов и центров оценки, специализирующийся на
               системном масштабировании в контексте образовательных реформ на Кавказе и в Центральной Азии.</p>
           </div>
 
+          <!-- Isabayeva -->
+          <div class="speaker-card" data-speaker="3">
+            <img src="assets/images/Speak3.png" class="speakers-circle" alt="Isabayeva Darazha" />
+            <h4 data-i18n="speaker-3-name">Исабаева Даража Нагашыбаевна</h4>
+            <p data-i18n="speaker-3-desc">Кандидат педагогических наук, и.о. профессора. Директор Управления
+              онлайн-образования AlmaU</p>
+          </div>
+
+          <!-- Kasawi -->
           <div class="speaker-card" data-speaker="7">
             <img src="assets/images/Speak7.png" class="speakers-circle" alt="Alice Shanthi Kasawi" />
             <h4 data-i18n="speaker-7-name">Доцент, Доктор Элис Шанти Касави</h4>
@@ -385,6 +388,37 @@
               исследований Технологического университета МАРА, Малайзия. Она имеет степень доктора философии в области
               преподавания английского языка как второго, специализируясь на компьютерно-опосредованной коммуникации
               (CMC).</p>
+          </div>
+
+          <!-- Lindsay -->
+          <div class="speaker-card" data-speaker="9">
+            <img src="assets/images/Lindsayspeaker.png" class="speakers-circle" alt="Dr Julie Lindsay" />
+            <h4 data-i18n="speaker-9-name">Dr Julie Lindsay</h4>
+            <p data-i18n="speaker-9-desc">Старший консультант по технологическим инновациям, Университет Южного
+              Квинсленда (UniSQ)</p>
+          </div>
+
+          <!-- Mansurova -->
+          <div class="speaker-card" data-speaker="10">
+            <img src="assets/images/mansurovaspeaker.png" class="speakers-circle" alt="Madina Mansurova" />
+            <h4 data-i18n="speaker-10-name">Мадина Есимхановна Мансурова</h4>
+            <p data-i18n="speaker-10-desc">Профессор, заведующая кафедрой искусственного интеллекта и больших данных,
+              КазНУ им. аль-Фараби</p>
+          </div>
+
+          <!-- Shcheglova -->
+          <div class="speaker-card" data-speaker="8">
+            <img src="assets/images/dinaraspeaker.png" class="speakers-circle" alt="Dinara Shcheglova" />
+            <h4 data-i18n="speaker-8-name">Динара Ринатовна Щеглова</h4>
+            <p data-i18n="speaker-8-desc">Вице-министр науки и высшего образования Республики Казахстан</p>
+          </div>
+
+          <!-- Tan -->
+          <div class="speaker-card" data-speaker="1">
+            <img src="assets/images/Speak 1.png" class="speakers-circle" alt="Rachel Sing-Ee Tan" />
+            <h4 data-i18n="speaker-1-name">Рэйчел Синг-и-Тан</h4>
+            <p data-i18n="speaker-1-desc">Руководитель программы, преподаватель, научный сотрудник, Университет INTI
+              International, Малайзия</p>
           </div>
 
 
@@ -513,8 +547,28 @@
           <!-- Блок для сообщений -->
           <div id="form-messages" aria-live="polite"></div>
         </form>
+
+        <!-- Zoom Invitation -->
+        <div class="zoom-invitation"
+          style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; margin-top: 40px; background: #ffffff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+          <div class="zoom-text"
+            style="flex: 1; min-width: 300px; margin-right: 20px; font-size: 1.1rem; line-height: 1.6;">
+            <h3 style="margin-bottom: 20px; color: #004d99;" data-i18n="zoom-title">Приглашение на Zoom встречу / Zoom
+              Meeting Invitation</h3>
+            <p style="margin-bottom: 10px;"><strong data-i18n="zoom-date">Конференция: 18 марта 2026 года</strong></p>
+            <p style="margin-bottom: 10px; font-family: monospace; font-size: 1.2rem;"><strong>Conference ID:</strong>
+              983 2681 1144</p>
+            <p style="font-family: monospace; font-size: 1.2rem;"><strong>Access code:</strong> 299240</p>
+          </div>
+          <div class="zoom-image" style="flex: 1; min-width: 300px; text-align: center;">
+            <img src="assets/images/Zoom.png" alt="Zoom Registration QR"
+              style="max-width: 100%; height: auto; border-radius: 8px;">
+          </div>
+        </div>
+
       </div>
     </section>
+
 
     <!-- Contacts -->
     <section id="contacts" class="section section--accent">
