@@ -30,14 +30,12 @@ body {
   color: var(--text-primary);
   scroll-behavior: smooth;
 }
-
 /* === CONTAINERS === */
 .container {
   max-width: var(--container-max);
   margin: 0 auto;
   padding: 24px;
 }
-
 /* === HEADER === */
 .site-header {
   position: absolute;
